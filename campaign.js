@@ -137,8 +137,8 @@ const CampaignEngine = (() => {
     const primaryTrendTag = (trend.tags && trend.tags[0]) ? trend.tags[0] : "Innovation";
 
     // ── 🎵 REAL AUDIO RESOLVER ──
-    let selectedAudio = { name: "No track found", artist: "Unknown" };
-
+    let selectedAudio = { name: "Blinding Lights", artist: "The Weeknd" };
+    /* Bypassed API fetch to lock single track universally
     if (!ACCESS_TOKEN) {
       console.warn("Spotify integration warning: ACCESS_TOKEN is missing or undefined.");
     }
@@ -176,7 +176,7 @@ const CampaignEngine = (() => {
       }
     } catch (err) {
       console.warn("Audio processing subsystem bypassed safely:", err.message);
-    }
+    } */
 
     // ── 🧠 CAPTION GENERATION (ULTRA-SHORT REWRITE) ──
     let selectedCaption = "";
