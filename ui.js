@@ -255,7 +255,7 @@ const UI = (() => {
   "Entertainment": "entertainment.jpg",
   "Restaurants": "restaurants.jpg",
   "Digital Marketing": "digitalmarketing.jpg",
-  "Movies * OTT": "movies&ott.jpg",
+  "Movies & OTT": "movies&ott.jpg",
   "Photography": "photography.jpg",
   "Influencer Marketing": "influencermarketing.jpg"
 };
